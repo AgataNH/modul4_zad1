@@ -1,8 +1,7 @@
-def palindromy(a):
-    b = a[::-1]
-    if a == b:
+def is_palindrome(word):
+    if word == word[::-1]:
         print('True')
     else:
         print('False')
 
-palindromy('potopik')
+is_palindrome('potop')
