@@ -1,7 +1,7 @@
 def is_palindrome(word):
     if word == word[::-1]:
-        print('True')
+        return True
     else:
-        print('False')
+        return False
 
-is_palindrome('potop')
+print(is_palindrome('potopy'))
